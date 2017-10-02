@@ -38,3 +38,21 @@ given memory condition of B(R) >M and B(S) >M since all block of R or S will not
 Index has been simulated as a java util Map which is built and is present in the disk simulation,
 at the same level where the relations R and S lie after their respective files have been parsed. This index
 is later brought into memory before the tuple matching begins.
+
+The code can be run by ensuring the following four files are in the same directory - 
+	1. NaturalJoin.java
+	2. rTuple.java
+	3. rBlock.java
+	4. sTuple.java
+	5. sBlock.java
+	6. Memory.java
+	7. JoinTuple.java
+
+Run the following commands on a linux terminal or dos terminal - 
+
+javac NaturalJoin.java
+java NaturalJoin
+
+If the code is run through eclipse, the the input files need to be in the projet directory.
+If the code is run through the terminal or command prompt, then the input files need to be present in the same directory as the java files.
+Final output is present in a file called output.txt which will be generated in the same directory.

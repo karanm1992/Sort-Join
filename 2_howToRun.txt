@@ -1,0 +1,25 @@
+CSC 244
+HW 2
+How_to_run (Tested on personal ubuntu and atoz, java 7 or higher required to run)
+
+Karan Mitra
+219032620
+
+The code can be run by ensuring the following four files are in the same directory - 
+	1. NaturalJoin.java
+	2. rTuple.java
+	3. rBlock.java
+	4. sTuple.java
+	5. sBlock.java
+	6. Memory.java
+	7. JoinTuple.java
+
+Run the following commands on a linux terminal or dos terminal - 
+
+javac NaturalJoin.java
+java NaturalJoin
+
+If the code is run through eclipse, the the input files need to be in the projet directory.
+If the code is run through the terminal or command prompt, then the input files need to be present in the same directory as the java files.
+Final output is present in a file called output.txt which will be generated in the same directory.
+The example data, files rData.txt and sData.txt are included in the submission.
